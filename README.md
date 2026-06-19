@@ -31,11 +31,15 @@ A robust RESTful CRUD API built using **FastAPI**, **SQLAlchemy ORM**, and **Pos
 Navigate into the project directory:
 ```bash
 cd api_crud_project
+```
 **Step 2: Set up a virtual environment**
 ```bash
 python -m venv .venv
+```
 # On Windows (PowerShell):
+```bash
 .venv\Scripts\activate
+```
 # On Mac/Linux:
 source .venv/bin/activate
 
