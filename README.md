@@ -25,3 +25,7 @@ A robust RESTful CRUD API built using **FastAPI**, **SQLAlchemy ORM**, and **Pos
    ```bash
    git clone [https://github.com/YOUR_USERNAME/api_crud_project.git](https://github.com/YOUR_USERNAME/api_crud_project.git)
    cd api_crud_project
+
+## GUIDE
+step 1:Navigate into the project directory:
+  cd api_crud_project
