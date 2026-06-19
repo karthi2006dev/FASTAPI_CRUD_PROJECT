@@ -27,8 +27,7 @@ A robust RESTful CRUD API built using **FastAPI**, **SQLAlchemy ORM**, and **Pos
    cd api_crud_project
 
 ## GUIDE
-**step 1:**
-Navigate into the project directory:
+**Step 1:Navigate into the project directory**
 ```bash
 cd api_crud_project
 ```
@@ -41,5 +40,24 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 # On Mac/Linux:
+```bash
 source .venv/bin/activate
+```
+**Step 3:Install required dependencies**
+```bash
+pip install fastapi uvicorn sqlalchemy psycopg2-binary python-dotenv
+```
+**Step 4: Configure Environment Variables (.env)**
+Create a file named .env in the root folder of your project. You must use your actual local PostgreSQL administrative username and password to create the connection string.
 
+Add this line to your .env file:DATABASE_URL=postgresql://<YOUR_POSTGRES_USER>:<YOUR_POSTGRES_PASSWORD>@localhost:5432/<YOUR_DATABASE_NAME>
+
+**Step 5: Start the FastAPI Server**
+With your virtual environment active, run the server using Uvicorn:
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+**Step 6: Test the API Using Postman**
+Open Postman to send requests directly to your running FastAPI server and verify the CRUD operations:
+create get post delete update requests using the endpoints
+and test the api.
