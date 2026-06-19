@@ -23,7 +23,7 @@ A robust RESTful CRUD API built using **FastAPI**, **SQLAlchemy ORM**, and **Pos
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/api_crud_project.git](https://github.com/YOUR_USERNAME/api_crud_project.git)
+   git clone [https://github.com/karthi2006dev/FASTAPI_CRUD_PROJECT.git](https://github.com/karthi2006dev/FASTAPI_CRUD_PROJECT.git)
    cd api_crud_project
 
 ## GUIDE
